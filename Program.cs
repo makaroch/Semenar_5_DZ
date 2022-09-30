@@ -1,4 +1,4 @@
-﻿int[]  createArray(int length, int x, int y){
+﻿int[]  createArray(int length, int x, int y){//создает массив принимая длинну, и границы для рандома
     int[] arr = new int[length];
     for (int i = 0; i < length; i++)
     {
@@ -78,8 +78,8 @@ void Zadacha38(){
 Console.WriteLine("Введите номер задачи");
 int zadachaNumber = Convert.ToInt32(Console.ReadLine());
 
-if (zadachaNumber == 34 | zadachaNumber == 36 | zadachaNumber == 38){
-    if (zadachaNumber == 34) Zadacha34();
+if (zadachaNumber == 34 | zadachaNumber == 36 | zadachaNumber == 38){// устал все коментить, извратился через методы 
+    if (zadachaNumber == 34) Zadacha34();//выбор задачи 
     if (zadachaNumber == 36) Zadacha36();
     if (zadachaNumber == 38) Zadacha38();
 }else Console.WriteLine("Есть толь задачи номер 34, 36, 38");
